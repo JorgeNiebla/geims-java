@@ -1,4 +1,5 @@
 FROM maven:3.6
+
   
 # Install Cloud Foundry cli
 ADD https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.32.0 /tmp/cf-cli.tgz
